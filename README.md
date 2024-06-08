@@ -1,4 +1,4 @@
-An R package for **parameter estimation** and **model checking** in the *finite mixture of censored models*.
+This is an R package for analyzing heterogeneous **Surv**ival data based on finite **M**ixture **M**odels.
 
 ***The key tasks include***: 
 - Fit a mixture of nonparametric heteroscedastic censored regression models.
