@@ -1,3 +1,5 @@
+# SurvMM
+
 This is an R package for analyzing heterogeneous **Surv**ival data based on finite **M**ixture **M**odels.
 
 ***The key tasks include***: 
