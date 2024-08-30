@@ -1,0 +1,27 @@
+Package: SurvMM
+Title: Nonparametric Mixture Modeling of Survival Data with Latent
+        Heterogeneity
+Version: 0.0.0.9000
+Authors@R: 
+  c(
+  person(given = "Jie",
+         family = "Ding",
+         role = c("aut", "cre"),
+         email = "biostat_jieding@outlook.com",
+         comment = c(ORCID = "0000-0002-6083-7529")),
+  person(given = "Ingrid",
+         family = "Van Keilegom",
+         role = c("aut"),
+         comment = c(ORCID = "0000-0001-8827-7642"))
+  )
+Author: Jie Ding [aut, cre] (<https://orcid.org/0000-0002-6083-7529>), Ingrid Van Keilegom [aut] (<https://orcid.org/0000-0001-8827-7642>)
+Maintainer: Jie Ding <biostat_jieding@outlook.com>
+Description: Estimate survival mixture models based on nonparametric heteroscedastic models.
+License: GPL (>= 2)
+Encoding: UTF-8
+Imports: MASS, survival, mvtnorm, methods
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+URL: <https://github.com/biostat-jieding/SurvMM>
+NeedsCompilation: no
+Packaged: 2024-08-30 18:02:20 UTC; biost
