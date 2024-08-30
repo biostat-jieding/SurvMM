@@ -9,6 +9,6 @@ This is an R package for analyzing heterogeneous **Surv**ival data based on fini
 Installation of this package can be done locally after downloading the package manually from this github website. We will also upload this package to the Comprehensive R Archive Network (CRAN) so that it can be downloaded as a standard R package. Currently, it can be loaded using R command
 
 ```R
-devtools::install_github("yiniu06/smgeecure")
-library(smgeecure)
+devtools::install_github("biostat-jieding/SurvMM")
+library(SurvMM)
 ```
