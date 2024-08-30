@@ -66,11 +66,12 @@ X    <- as.matrix(sdata[,-c(1,2),drop=FALSE])
 
 Fit the model via provided function:
 ```R
+xGrids <- seq(0,1,0.01)
 sol.FMM.NHR <- SurvMM.NHR.Fit(
   yobs      = yobs, 
   delta     = delta, 
   X         = X,
-  xGrids    = seq(0,1,0.01),
+  xGrids    = xGrids,
   numG      = 2,
   bandwidth = list(
     h       = seq(0.03,0.21,0.03),
