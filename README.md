@@ -4,6 +4,7 @@
 
 This is an R package for analyzing heterogeneous **Surv**ival data based on finite **M**ixture **M**odels.
 - The underlying mixture model is composed of *nonparametric heteroscedastic regression models*.
+- *This R package was contributed by **Jie Ding** and **Ingrid Van Keilegom**.*
 
 ## Package description and included main functions
 
@@ -143,5 +144,3 @@ lines(sapply(xGrids,parx.true$sx)[2,]~xGrids,lwd=2)
 lines(parx$sx[,1]~xGrids,lty="dotdash",col="blue",lwd=2)
 lines(parx$sx[,2]~xGrids,lty="dotdash",col="blue",lwd=2)
 ```
-
-*This R package was contributed by **Jie Ding** and **Ingrid Van Keilegom**.*
