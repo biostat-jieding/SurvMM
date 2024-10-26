@@ -1,6 +1,6 @@
 # *SurvMM* R Package
 
-## Nonparametric mixture modeling of survival data with latent heterogeneity
+## Nonparametric Mixture Modeling of Survival Data with Latent Heterogeneity
 
 This is an R package for analyzing heterogeneous **Surv**ival data based on finite **M**ixture **M**odels.
 - The underlying mixture model is composed of *nonparametric heteroscedastic regression models*.
